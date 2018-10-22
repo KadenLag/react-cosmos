@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { library } from '@fortawesome/fontawesome-svg-core';
 import './App.css';
+
+import {
+  faCheck
+} from '@fortawesome/free-solid-svg-icons';
+
+
+library.add(
+  faCheck,
+)
 
 class App extends Component {
   render() {
